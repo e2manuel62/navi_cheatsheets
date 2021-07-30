@@ -1,0 +1,10 @@
+% pdftk
+# cat
+pdftk A=<fic_in_1>.pdf B=<fic_in_2>.pdf cat <pages> output <fic_out>.pdf
+
+# burst
+pdftk <fic_in>.pdf burst
+
+% pdfjam
+# 2x1 A4V > 2xA5v
+pdfjam --nup 2x1 --landscape <fic_in>.pdf <pages> --outfile <fic_in>_2x1.pdf

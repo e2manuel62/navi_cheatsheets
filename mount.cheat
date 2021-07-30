@@ -1,0 +1,7 @@
+% mount
+
+# mount extxx
+sudo mount -L ext<nn>
+
+# umount extxx
+sudo umount /media/emmanuel/ext0{6,7,8}

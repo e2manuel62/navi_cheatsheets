@@ -1,0 +1,12 @@
+% ffmpeg
+
+# ffmpeg clip
+ffmpeg -ss hh:mm:ss.mmm -t hh:mm:ss.mmm -i <fic_in> <fic_out>
+
+% mpv
+
+# mpv loop
+mpv --loop --pause --osd-fractions --osd-level=3 <fichier>
+
+# mpv playlist
+mpv --loop --pause --osd-fractions --osd-level=3 --playlist=<fichier>

@@ -1,0 +1,7 @@
+% lvm
+
+# augmentation taille LG
+lvextend -L +10G /dev/VG01/LVxx && 
+lvs && 
+resize2fs /dev/VG01/LVxx && 
+df -ah

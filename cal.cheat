@@ -1,0 +1,15 @@
+% cal
+
+# mois courant
+cal
+
+# année
+cal <année>
+
+% ncal
+
+# affichage des n°s de semaine
+ncal -w
+
+# date de Pâques
+ncal -e <année>

@@ -1,0 +1,12 @@
+% gm display
+
+# afficher une image
+gm display <fichier>
+
+% gm mogrify
+
+# conversion > jpg
+gm mogrify -format jpg -quality <q> 
+
+# conversion > pdf
+gm mogrify -format pdf

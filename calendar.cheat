@@ -1,0 +1,7 @@
+% calendar
+
+# fêtes du jour et du lendemain
+calendar
+
+# fêtes d'un jour précis et du lendemain
+calendar -t <CCYYMMDD>

@@ -1,0 +1,4 @@
+% tlmgr
+
+# update (interactif)
+tlmgr --gui

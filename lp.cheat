@@ -1,0 +1,7 @@
+% lp
+
+# impression recto
+lp -n <nex> -P <pages> -o sides=one-sided <fichier>
+
+# impression recto/verso
+lp -n <nex> -P <pages> -o sides=two-sided-long-edge <fichier>

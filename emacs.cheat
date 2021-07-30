@@ -1,0 +1,10 @@
+% emacs
+
+# démarrage
+emacs &
+
+# version
+emacs --version
+
+# nouvelle instance client (M-x server-start)
+emacsclient -c &

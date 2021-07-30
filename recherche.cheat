@@ -1,0 +1,9 @@
+% grep
+# recherche de(s) fichier(s) contenant un texte
+grep -i "<texte>" <where>
+
+% locate
+# recherche de fichier dans l'arborescence
+locate -i <fichier>
+
+% find

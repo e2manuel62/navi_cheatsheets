@@ -1,0 +1,7 @@
+% flatpak
+
+# install flathub app
+sudo flatpak -v --installation=opt install flathub <app>
+
+# update
+sudo flatpak --installation=opt update

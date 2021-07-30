@@ -1,0 +1,26 @@
+% aptitude
+
+# update, upgrade
+aptitude update && aptitude safe-upgrade
+
+% apt-cache
+
+# policy
+apt-cache policy <package>
+
+% apt-get
+
+# installation d'un paquet
+apt-get -t stretch-backports install <package>
+
+# suppression d'un paquet
+apt-get remove <package>
+
+# nettoyage de /var
+apt-get autoclean && 
+apt-get autoremove --purge
+
+% dpkg_ep
+
+# log dpkg
+dpkg_ep.sh

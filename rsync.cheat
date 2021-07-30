@@ -1,0 +1,4 @@
+% rsync, tar
+
+# home_rsync_tar_ep.sh
+home_rsync_tar_ep.sh rsync 8_emmanuel_all 9_exclude /media/emmanuel/ext<nn>/9_pcHP-p6_rsync_home/Debian_stretch/
